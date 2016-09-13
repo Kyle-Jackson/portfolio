@@ -1,0 +1,335 @@
+@-moz-viewport { width: device-width; scale: 1; }
+@-ms-viewport { width: device-width; scale: 1; }
+@-o-viewport { width: device-width; scale: 1; }
+@-webkit-viewport { width: device-width; scale: 1; }
+@viewport { width: device-width; scale: 1; }
+
+html {
+  box-sizing: border-box;
+  background-color: #1eaefa;
+  font-weight: lighter;
+  font-family: 'arial', sans-serif;
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+
+html {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  margin: 0;
+}
+
+header {
+  background-image: url("../images/background.jpg");
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-position: left top;
+  font-family: 'Sans Serif', sans-serif;
+}
+
+.me {
+  width: 20%;
+  border-radius: 60px;
+  height: auto;
+  margin-left: 40%;
+  margin-right: 40%;
+  margin-top: 10%;
+
+}
+
+h1 {
+  text-align: center;
+  color: white;
+  margin-top: 0.5em;
+  padding-bottom: 0.5em;
+}
+
+p {
+  padding: 0 1rem;
+}
+
+footer {
+  text-align: center;
+  padding: 1.5em 0;
+  font-family: 'arial', sans-serif;
+}
+
+a {
+  color: white;
+}
+
+h2 {
+  color: white;
+  margin-top: 0;
+}
+
+.svg {
+  width: 85%;
+  height: auto;
+  transition: all .2s ease-in-out;
+}
+
+.svg:hover {
+  -webkit-transform: scale(1.5);
+  transform: scale(1.5);
+}
+
+.nav {
+  margin: 0;
+}
+
+nav {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  text-align: center;
+  padding-bottom: 1.25em;
+}
+
+.nav li {
+  display: inline-block;
+  width: 15%;
+}
+
+.nav a {
+  display: inline-block;
+}
+
+li {
+  list-style-type: none;
+}
+
+ul {
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+.sky {
+  width: 100%;
+  height: auto;
+  transition: all .2s ease-in-out;
+  display: block;
+  padding: 0 0.1em;
+}
+
+.sky:hover {
+  -webkit-transform: scale(1.2);
+  transform: scale(1.2);
+}
+
+.bro {
+  width: 100%;
+  height: auto;
+  transition: all .2s ease-in-out;
+  display: block;
+  padding: 0 0.1em;
+}
+
+.bro:hover {
+  -webkit-transform: scale(1.2);
+  transform: scale(1.2);
+}
+
+.boo {
+  width: 100%;
+  height: auto;
+  transition: all .2s ease-in-out;
+  display: block;
+  padding: 0 0.1em;
+}
+
+.boo:hover {
+  -webkit-transform: scale(1.2);
+  transform: scale(1.2);
+}
+
+.imgs a {
+  display: block;
+}
+
+.imgs {
+  margin: 0;
+  list-style-type: none;
+  text-align: center;
+  padding: 1.25em 0;
+}
+
+.imgs li {
+  display: inline-block;
+  width: 30%;
+}
+
+@media only screen and (min-width: 31em) {
+
+  html {
+    font-size: 110%;
+    line-height: 1.4;
+  }
+
+  p {
+    padding: 0 2em;
+  }
+
+  .svg {
+    width: 65%;
+    height: auto;
+  }
+
+}
+
+@media only screen and (min-width: 37em) {
+
+  p {
+    padding: 0 6em;
+  }
+
+  .me {
+      margin-top: 4%;
+      border-radius: 80px;
+  }
+
+  h1 {
+    margin-top: 0.25em;
+  }
+
+}
+
+@media only screen and (min-width: 43em) {
+
+  html {
+    font-size: 120%;
+    line-height: 1.5;
+  }
+
+  h1 {
+    display: inline-block;
+    vertical-align: middle;
+    padding: 0;
+  }
+
+  .me {
+    display: inline-block;
+    vertical-align: middle;
+    margin: 2em;
+    width: 12%;
+  }
+
+  .head {
+    padding-left: 4em;
+  }
+
+  footer {
+    padding: 1em 0;
+  }
+
+  .svg {
+    width: 40%;
+  }
+
+  h2 {
+    margin-bottom: 0.2em;
+  }
+
+  nav {
+    padding-bottom: 0em;
+  }
+
+  .img {
+    width: 70%;
+  }
+}
+  @media only screen and (min-width: 56em) {
+
+    html {
+      font-size: 130%;
+      line-height: 1.6;
+    }
+
+    p {
+      padding: 0 10em;
+    }
+
+    h1 {
+      margin: 0
+    }
+
+    .me {
+      margin-bottom: 2em;
+      margin-left: 6em;
+    }
+
+    .img {
+      width: 75%;
+    }
+}
+
+@media only screen and (min-width: 68em) {
+
+  html {
+    font-size: 140%;
+    line-height: 1.7;
+  }
+
+  p {
+    padding: 0 12em;
+  }
+
+    @media print {
+
+      html {
+        width: 3.5in;
+        height: 2in;
+        margin: 0;
+        padding: 0;
+        border: 1px solid black;
+      }
+
+      nav {
+        display: none;
+      }
+
+      main a::after {
+        content: " (" attr(href) ")";
+        color: #999;
+      }
+
+      img {
+        display: none;
+      }
+
+      p {
+        display: none;
+      }
+
+      header {
+        background-image: none;
+      }
+
+      .head {
+        padding: 0em;
+      }
+
+      .me {
+        display: inline-block;
+        width: 25%;
+        margin: 1em;
+      }
+
+      h1 {
+        display: inline-block;
+        color: black;
+        font-size: 1rem
+      }
+
+      h2 {
+        display: none;
+      }
+}
