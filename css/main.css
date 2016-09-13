@@ -9,6 +9,7 @@ html {
   background-color: #1eaefa;
   font-weight: lighter;
   font-family: 'arial', sans-serif;
+  color: white;
 }
 
 *, *::before, *::after {
