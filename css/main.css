@@ -76,8 +76,8 @@ h2 {
 }
 
 .svg:hover {
-  -webkit-transform: scale(1.5);
-  transform: scale(1.5);
+  -webkit-transform: scale(1.25);
+  transform: scale(1.25);
 }
 
 .nav {
