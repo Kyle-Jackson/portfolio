@@ -8,7 +8,7 @@ html {
   box-sizing: border-box;
   background-color: white;
   font-weight: lighter;
-  font-family: 'arial', sans-serif;
+  font-family: 'Open Sans', sans-serif;
   color: white;
 }
 
@@ -62,8 +62,8 @@ p {
 
 footer {
   text-align: center;
-  padding: 1.5em 0;
-  font-family: 'arial', sans-serif;
+  padding: 1em 0;
+  font-family: 'Open Sans', sans-serif;
   background-color: #1eaefa;
 }
 
@@ -243,10 +243,6 @@ img {
 
   .head {
     padding-left: 4em;
-  }
-
-  footer {
-    padding: 1em 0;
   }
 
   .svg {
