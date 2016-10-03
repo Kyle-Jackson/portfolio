@@ -393,14 +393,14 @@ svg {
 .btn {
   display: inline-block;
   padding: 0.375em 0.75em 0.42em;
-  background-color: #990000;
   border-radius: 8px;
-  color: #fff;
-  text-decoration: none;
+  border: 2px solid #1eaefa;
+  color: #1eaefa;
+  text-align: center;
 }
 
 .btn:hover {
-  background-color: #510101;
+  background-color: #1eaefa;
   color: #fff;
 }
 
