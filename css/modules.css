@@ -397,6 +397,7 @@ svg {
   border: 2px solid #1eaefa;
   color: #1eaefa;
   text-align: center;
+  margin: auto;
 }
 
 .btn:hover {
